@@ -16,17 +16,12 @@
 
 makeCachematrix <- function(x = matrix()){
   inverse <- NULL                 ## setting my variable to NULL which is supposed to story the cache matrix later on 
-  
-  ## function 1: setter behaviour
   set <- function(y){
     x <<- y                      ## saving x to the parent environment
     inverse <<- NULL             ## saving the variable which shall later on story my cache matrix to the partent environment
   }
-  ## function 2: getter behaviour
   get <- function() x           ## a function that takes x from the partent environemnt 
-  ## function 3: setter behaviour
   setinverse <- function(i) inverse <<- i   ## assign the input argument from the parent environment, later on pass it to the cacheSolve function
-  ## function 4: getter behaviour
   getinverse <- function() inverse    ## a function that takes the local variable from the parent environment 
   
   ## store these function in a list, elements are named so that cacheSolve is able to call them by name, not by position 
