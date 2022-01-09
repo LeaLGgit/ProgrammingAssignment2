@@ -1,4 +1,4 @@
-## ----
+## calculating a mean from pollutant data ----
 
 pollutantmean <- function(directory, pollutant, id){
   setwd("")   ## insert your path
