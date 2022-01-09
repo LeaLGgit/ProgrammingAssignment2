@@ -1,4 +1,4 @@
-#### Programming assignment 1 - part b 
+## loading a complete dataset from multiple files into R 
 
 complete <- function(directory, id) {
   # set path, list all possible files // needs to be done for every monitor ID so doesnt need to be within the for loop
