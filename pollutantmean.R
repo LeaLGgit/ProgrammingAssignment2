@@ -1,7 +1,7 @@
-#### Programming assignment 1 ----
+## ----
 
 pollutantmean <- function(directory, pollutant, id){
-  setwd("P:/Analytik/Organisatorisches/LGR/Sonstiges/R/Data Scientists")
+  setwd("")   ## insert your path
   #obtaining a list of sensore files ----
   #ARGUMENT FOR FUNCTION 
   #directory <- c("specdata")  ## choosing the directory where the data files are stored (needs to be within the wd!) 
@@ -29,10 +29,5 @@ pollutantmean <- function(directory, pollutant, id){
 #pollutantmean("specdata", "nitrate", 70:72)
 #pollutantmean("specdata", "nitrate", 23)
 #pollutantmean("specdata", "sulfate", 1:10)
-
-
-# week test 
-pollutantmean("specdata", "sulfate", 1:10)
-pollutantmean("specdata", "nitrate", 70:72)
-pollutantmean("specdata", "sulfate", 34)
-pollutantmean("specdata", "nitrate")
+#pollutantmean("specdata", "sulfate", 34)
+#pollutantmean("specdata", "nitrate")
